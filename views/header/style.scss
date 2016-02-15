@@ -1,0 +1,39 @@
+@import '../variables';
+
+.headerOuter {
+  width: 100%;
+  height: 2.5em;
+  margin: 0.5em auto;
+  display: flex;
+  background-color: $grey-200;
+  border-radius: 2px;
+  color: $grey-800;
+  a {
+    border-radius: 2px;
+    text-decoration: none;
+    line-height: 2.5;
+    padding: 0 2em;
+  }
+}
+
+.indexLink {
+  color: $grey-700;
+}
+
+.pinkLink {
+  background-color: $pink-400;
+  color: $grey-200;
+  flex: 1;
+}
+
+.tealLink {
+  background-color: $teal-400;
+  color: $grey-200;
+  flex: 1;
+}
+
+.timer {
+  cursor: default;
+  min-width: 20em;
+  text-align: center;
+}

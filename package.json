@@ -1,0 +1,66 @@
+{
+  "name": "nodejs-react-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate with Node.js and React",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "./node_modules/.bin/webpack --config webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicae/nodejs-react-boilerplate.git"
+  },
+  "author": "Magica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicae/nodejs-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/magicae/nodejs-react-boilerplate#readme",
+  "engine": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-plugin-transform-async-to-module-method": "^6.5.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-es2015-node4": "^2.0.3",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "bluebird": "^3.3.1",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "expressjs/express#0774548736a00ab380dd648d98ef1a8b415356c5",
+    "express-session": "^1.13.0",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.3",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel-loader": "^6.2.2",
+    "babel-plugin-antd": "^0.2.0",
+    "babel-preset-react-hmre": "^1.1.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.4.2",
+    "normalize.css": "^3.0.3",
+    "postcss-loader": "^0.8.1",
+    "qwest": "^4.0.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "react-router": "^2.0.0",
+    "redux": "^3.3.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.7.1"
+  }
+}

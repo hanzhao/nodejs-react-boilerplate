@@ -1,0 +1,22 @@
+@import "../variables";
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 0em;
+  width: 100%;
+  border-radius: 4px;
+  background-color: $grey-200;
+  font-size: 3em;
+  line-height: 2;
+}
+
+.react {
+  width: 2em;
+  margin: 0 0.5em;
+}
+
+.info {
+  color: $grey-500;
+}
