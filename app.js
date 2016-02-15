@@ -7,6 +7,7 @@ import express from 'express'
 import bodyParser from 'body-parser'
 import cookieParser from 'cookie-parser'
 import logger from 'morgan'
+import favicon from 'serve-favicon'
 import methodOverride from 'method-override'
 
 import webpack from 'webpack'
@@ -36,6 +37,7 @@ if (env == 'development') {
   }))
   app.use(webpackHotMiddleware(compiler))
 } else {
+  app.use(favicon(`${ROOT}/public/favicon.ico`))
   app.use('/public', express.static(`${ROOT}/public`))
 }
 

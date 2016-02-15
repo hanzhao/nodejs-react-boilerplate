@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "./node_modules/.bin/webpack --config webpack.config.prod.js",
+    "build": "./node_modules/.bin/webpack -p --config webpack.config.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -38,7 +38,8 @@
     "express-session": "^1.13.0",
     "method-override": "^2.3.5",
     "mongoose": "^4.4.3",
-    "morgan": "^1.6.1"
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.3",

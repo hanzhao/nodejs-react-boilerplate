@@ -19,7 +19,7 @@ module.exports = {
         }
       }, {
         test: /\.scss$/,
-        loaders: ['style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]', 'postcss', 'sass']
+        loaders: ['style', 'css?minimize&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]', 'postcss', 'sass']
       }, {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)$/,
         loaders: ['url?limit=10000']
