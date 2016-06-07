@@ -1,8 +1,9 @@
 const webpack = require('webpack')
+const path = require('path')
 
 module.exports = {
   devtool: 'source-map',
-  context: `${__dirname}/views`,
+  context: path.join(__dirname, `views`),
   entry: {
     main: [
       'webpack-hot-middleware/client',
@@ -10,7 +11,7 @@ module.exports = {
     ]
   },
   output: {
-    path: `${__dirname}/public`,
+    path: path.join(__dirname, `public`),
     publicPath: `/public/`,
     filename: '[name].bundle.js'
   },
